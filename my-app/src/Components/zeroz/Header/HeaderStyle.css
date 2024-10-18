@@ -1,0 +1,200 @@
+.headerLinks{
+    margin-left: 4%;
+}
+.headerLinks .ourStory{
+    position: absolute;
+    margin-left: 75%;
+}
+.icons .count{
+    margin-top: -50px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 55%;
+}
+.sidebarContainer{
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebarContainer .sidebarDiv{
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebarDiv .sidebarSections{
+    margin-top: 100px;
+}
+.sidebarDiv .closeBtn{
+    margin-left: 96%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.sidebarDiv .closeBtn:active{
+    border: 1px dotted gray;
+    padding: 3px;
+}
+.sidebarBg{
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+.shoppingContainer{
+    position: absolute;
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+}
+.shoppingContainer .shoppingDiv{
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    width: 35vw;
+    height: 100vh;
+    margin-left: 65vw;
+}
+.shoppingDiv .noElement{
+    margin-top: 38vh;
+    color: #abaeae;
+    
+}
+.shoppingDiv .shoppingBtn{
+    margin-top: 86vh;
+    background-color: #6e7051;
+    transition: 0.5s;
+}
+.shoppingDiv .shoppingBtn:hover{
+    background-color: #262b2c;
+}
+.shoppingDiv .closeBtn{
+    margin-left: 92%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.shoppingContainer .shoppingBg{
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+@media (max-height: 800px) {
+    .shoppingDiv .shoppingBtn{
+        margin-top: 81vh;
+    }
+}
+@media (max-height: 600px) {
+    .shoppingDiv .shoppingBtn{
+        margin-top: 78vh;
+    }
+}
+@media (min-width: 1100px){
+    .sidebarContainer{
+    display: none;
+    }
+}
+@media (max-width: 1450px) {
+    .headerLinks .ourStory{
+        margin-left: 65%;
+    }
+    .shoppingContainer .shoppingDiv{
+        width: 50vw;
+        margin-left: 50%;
+    }
+}
+@media (max-width: 1100px) {
+    .headerLinks li:not(.icons),.shipping{
+        display: none;
+    }
+    .shoppingContainer .shoppingDiv{
+        width: 55vw;
+        margin-left: 45%;
+    }
+    .headerLinks .cart{
+        margin-left: 250%;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .header button{
+        position: absolute;
+    }
+    .header .sidebar{
+        display: block;
+    }
+}
+@media (max-width: 1000px) {
+        .headerLinks .cart{
+        margin-left: 210%;
+        font-size: 22px;
+    }
+    .headerLinks .icons{
+        font-size: 25px;
+    }
+}
+@media (max-width: 830px) {
+        .headerLinks .cart{
+        margin-left: 160%;
+    }
+    .shoppingContainer .shoppingDiv{
+        width: 60vw;
+        margin-left: 40%;
+    }
+}
+@media (max-width: 720px) {
+        .headerLinks .cart{
+        margin-left: 120%;
+    }
+    .sidebarDiv .closeBtn{
+        margin-left: 95%;
+        margin-top: 3%;
+        cursor: pointer;
+    }
+}
+@media (max-width: 620px) {
+        .headerLinks .cart{
+        margin-left: 70%;
+    }
+    .shoppingContainer .shoppingDiv{
+        width: 70vw;
+        margin-left: 30%;
+    }
+}
+@media (max-width: 500px) {
+        .headerLinks .cart{
+        margin-left: 50%;
+        margin-right: -25%;
+    }
+    .headerLinks .icons{
+        font-size: 18px;
+    }
+    .icons .count{
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+        margin-top: -40px;
+        line-height: 1.5;
+    }
+    .header button{
+        margin-left: -10%;
+        width: 120px;
+    }
+    .sidebarContainer .sidebarDiv{
+        width: 85vw;
+    }
+    .sidebarDiv .closeBtn{
+        margin-left: 90%;
+    }
+    .shoppingContainer .shoppingDiv{
+        width: 100vw;
+        margin-left: 0;
+        font-size: 0.7rem;
+    }
+}

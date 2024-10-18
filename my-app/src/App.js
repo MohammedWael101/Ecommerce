@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Components/zeroz/Header/Header';
-
-function App() {
+import MenPage from "./Components/mrking/Men/menPage"
+import Header from "./Components/zeroz/Header/Header"
+import Footer from "./Components/zeroz/Footer/Footer"
+export default function App() {
   return (
     <>
-      <Header/>
-    </>
+        <Header/>
+        <MenPage/>
+        <Footer/>    
+      </>
   );
 }
-
-export default App;
